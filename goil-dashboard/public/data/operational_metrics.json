@@ -1,0 +1,247 @@
+{
+  "company": "Goil Ghana Limited",
+  "period": "2023-2025",
+  "operational_metrics": {
+    "kpis": {
+      "quarterly": [
+        {
+          "quarter": "Q1 2023",
+          "gross_profit_margin": 14.2,
+          "net_profit_margin": 3.8,
+          "ebitda_margin": 8.5,
+          "return_on_assets": 6.2,
+          "return_on_equity": 12.4,
+          "current_ratio": 1.45,
+          "debt_to_equity": 0.68,
+          "inventory_turnover": 18.5,
+          "asset_turnover": 2.8
+        },
+        {
+          "quarter": "Q2 2023",
+          "gross_profit_margin": 14.8,
+          "net_profit_margin": 4.1,
+          "ebitda_margin": 8.9,
+          "return_on_assets": 6.5,
+          "return_on_equity": 12.8,
+          "current_ratio": 1.48,
+          "debt_to_equity": 0.66,
+          "inventory_turnover": 19.2,
+          "asset_turnover": 2.9
+        },
+        {
+          "quarter": "Q3 2023",
+          "gross_profit_margin": 14.5,
+          "net_profit_margin": 3.9,
+          "ebitda_margin": 8.7,
+          "return_on_assets": 6.3,
+          "return_on_equity": 12.6,
+          "current_ratio": 1.46,
+          "debt_to_equity": 0.67,
+          "inventory_turnover": 18.8,
+          "asset_turnover": 2.85
+        },
+        {
+          "quarter": "Q4 2023",
+          "gross_profit_margin": 15.2,
+          "net_profit_margin": 4.5,
+          "ebitda_margin": 9.2,
+          "return_on_assets": 7.1,
+          "return_on_equity": 13.8,
+          "current_ratio": 1.52,
+          "debt_to_equity": 0.64,
+          "inventory_turnover": 20.1,
+          "asset_turnover": 3.0
+        },
+        {
+          "quarter": "Q1 2024",
+          "gross_profit_margin": 15.8,
+          "net_profit_margin": 4.8,
+          "ebitda_margin": 9.5,
+          "return_on_assets": 7.4,
+          "return_on_equity": 14.2,
+          "current_ratio": 1.55,
+          "debt_to_equity": 0.62,
+          "inventory_turnover": 20.5,
+          "asset_turnover": 3.1
+        },
+        {
+          "quarter": "Q2 2024",
+          "gross_profit_margin": 16.2,
+          "net_profit_margin": 5.1,
+          "ebitda_margin": 9.8,
+          "return_on_assets": 7.8,
+          "return_on_equity": 14.8,
+          "current_ratio": 1.58,
+          "debt_to_equity": 0.60,
+          "inventory_turnover": 21.2,
+          "asset_turnover": 3.15
+        },
+        {
+          "quarter": "Q3 2024",
+          "gross_profit_margin": 15.9,
+          "net_profit_margin": 4.9,
+          "ebitda_margin": 9.6,
+          "return_on_assets": 7.6,
+          "return_on_equity": 14.5,
+          "current_ratio": 1.56,
+          "debt_to_equity": 0.61,
+          "inventory_turnover": 20.8,
+          "asset_turnover": 3.12
+        },
+        {
+          "quarter": "Q4 2024",
+          "gross_profit_margin": 16.5,
+          "net_profit_margin": 5.4,
+          "ebitda_margin": 10.2,
+          "return_on_assets": 8.2,
+          "return_on_equity": 15.4,
+          "current_ratio": 1.62,
+          "debt_to_equity": 0.58,
+          "inventory_turnover": 21.8,
+          "asset_turnover": 3.2
+        },
+        {
+          "quarter": "Q1 2025",
+          "gross_profit_margin": 16.8,
+          "net_profit_margin": 5.6,
+          "ebitda_margin": 10.5,
+          "return_on_assets": 8.5,
+          "return_on_equity": 15.8,
+          "current_ratio": 1.65,
+          "debt_to_equity": 0.56,
+          "inventory_turnover": 22.2,
+          "asset_turnover": 3.25
+        },
+        {
+          "quarter": "Q2 2025",
+          "gross_profit_margin": 17.2,
+          "net_profit_margin": 5.9,
+          "ebitda_margin": 10.8,
+          "return_on_assets": 8.9,
+          "return_on_equity": 16.2,
+          "current_ratio": 1.68,
+          "debt_to_equity": 0.54,
+          "inventory_turnover": 22.8,
+          "asset_turnover": 3.3
+        },
+        {
+          "quarter": "Q3 2025",
+          "gross_profit_margin": 16.9,
+          "net_profit_margin": 5.7,
+          "ebitda_margin": 10.6,
+          "return_on_assets": 8.7,
+          "return_on_equity": 16.0,
+          "current_ratio": 1.66,
+          "debt_to_equity": 0.55,
+          "inventory_turnover": 22.5,
+          "asset_turnover": 3.28
+        },
+        {
+          "quarter": "Q4 2025",
+          "gross_profit_margin": 17.5,
+          "net_profit_margin": 6.2,
+          "ebitda_margin": 11.2,
+          "return_on_assets": 9.3,
+          "return_on_equity": 16.8,
+          "current_ratio": 1.72,
+          "debt_to_equity": 0.52,
+          "inventory_turnover": 23.5,
+          "asset_turnover": 3.4
+        }
+      ]
+    },
+    "station_network": {
+      "2023": {
+        "total_stations": 385,
+        "company_owned": 142,
+        "dealer_owned": 186,
+        "franchise": 57,
+        "new_stations_opened": 28,
+        "stations_under_renovation": 15,
+        "avg_daily_throughput_per_station": 8500,
+        "operational_uptime_percent": 97.2
+      },
+      "2024": {
+        "total_stations": 418,
+        "company_owned": 156,
+        "dealer_owned": 202,
+        "franchise": 60,
+        "new_stations_opened": 35,
+        "stations_under_renovation": 18,
+        "avg_daily_throughput_per_station": 8850,
+        "operational_uptime_percent": 97.8
+      },
+      "2025": {
+        "total_stations": 452,
+        "company_owned": 168,
+        "dealer_owned": 218,
+        "franchise": 66,
+        "new_stations_opened": 38,
+        "stations_under_renovation": 22,
+        "avg_daily_throughput_per_station": 9250,
+        "operational_uptime_percent": 98.2
+      }
+    },
+    "employee_metrics": {
+      "2023": {
+        "total_employees": 2450,
+        "management": 185,
+        "supervisors": 420,
+        "attendants": 1520,
+        "administrative": 325,
+        "avg_salary_ghs": 48500,
+        "employee_turnover_percent": 12.5,
+        "training_hours_per_employee": 42,
+        "safety_incidents": 28
+      },
+      "2024": {
+        "total_employees": 2680,
+        "management": 205,
+        "supervisors": 458,
+        "attendants": 1680,
+        "administrative": 337,
+        "avg_salary_ghs": 52800,
+        "employee_turnover_percent": 11.2,
+        "training_hours_per_employee": 48,
+        "safety_incidents": 22
+      },
+      "2025": {
+        "total_employees": 2920,
+        "management": 225,
+        "supervisors": 495,
+        "attendants": 1850,
+        "administrative": 350,
+        "avg_salary_ghs": 57400,
+        "employee_turnover_percent": 10.5,
+        "training_hours_per_employee": 54,
+        "safety_incidents": 18
+      }
+    },
+    "customer_metrics": {
+      "2023": {
+        "loyalty_program_members": 185000,
+        "active_fleet_accounts": 2450,
+        "customer_satisfaction_score": 78.5,
+        "nps_score": 42,
+        "avg_transaction_value_ghs": 385,
+        "repeat_customer_rate": 68.2
+      },
+      "2024": {
+        "loyalty_program_members": 225000,
+        "active_fleet_accounts": 2850,
+        "customer_satisfaction_score": 81.2,
+        "nps_score": 48,
+        "avg_transaction_value_ghs": 420,
+        "repeat_customer_rate": 71.5
+      },
+      "2025": {
+        "loyalty_program_members": 268000,
+        "active_fleet_accounts": 3250,
+        "customer_satisfaction_score": 83.8,
+        "nps_score": 52,
+        "avg_transaction_value_ghs": 455,
+        "repeat_customer_rate": 74.2
+      }
+    }
+  }
+}

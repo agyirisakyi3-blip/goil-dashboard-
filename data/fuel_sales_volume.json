@@ -1,0 +1,377 @@
+{
+  "company": "Goil Ghana Limited",
+  "period": "2023-2025",
+  "fuel_sales_volume": {
+    "monthly": [
+      {
+        "month": "Jan 2023",
+        "year": 2023,
+        "pms_liters": 142000000,
+        "diesel_liters": 98000000,
+        "kerosene_liters": 12000000,
+        "lpg_tons": 8500,
+        "total_liters": 252000000
+      },
+      {
+        "month": "Feb 2023",
+        "year": 2023,
+        "pms_liters": 135000000,
+        "diesel_liters": 92000000,
+        "kerosene_liters": 11500000,
+        "lpg_tons": 8100,
+        "total_liters": 238500000
+      },
+      {
+        "month": "Mar 2023",
+        "year": 2023,
+        "pms_liters": 148000000,
+        "diesel_liters": 102000000,
+        "kerosene_liters": 12800000,
+        "lpg_tons": 8800,
+        "total_liters": 262800000
+      },
+      {
+        "month": "Apr 2023",
+        "year": 2023,
+        "pms_liters": 152000000,
+        "diesel_liters": 105000000,
+        "kerosene_liters": 13200000,
+        "lpg_tons": 9200,
+        "total_liters": 270200000
+      },
+      {
+        "month": "May 2023",
+        "year": 2023,
+        "pms_liters": 158000000,
+        "diesel_liters": 108000000,
+        "kerosene_liters": 13500000,
+        "lpg_tons": 9500,
+        "total_liters": 279500000
+      },
+      {
+        "month": "Jun 2023",
+        "year": 2023,
+        "pms_liters": 162000000,
+        "diesel_liters": 112000000,
+        "kerosene_liters": 14000000,
+        "lpg_tons": 9800,
+        "total_liters": 288000000
+      },
+      {
+        "month": "Jul 2023",
+        "year": 2023,
+        "pms_liters": 155000000,
+        "diesel_liters": 106000000,
+        "kerosene_liters": 13200000,
+        "lpg_tons": 9400,
+        "total_liters": 274200000
+      },
+      {
+        "month": "Aug 2023",
+        "year": 2023,
+        "pms_liters": 150000000,
+        "diesel_liters": 103000000,
+        "kerosene_liters": 12800000,
+        "lpg_tons": 9100,
+        "total_liters": 265800000
+      },
+      {
+        "month": "Sep 2023",
+        "year": 2023,
+        "pms_liters": 146000000,
+        "diesel_liters": 100000000,
+        "kerosene_liters": 12500000,
+        "lpg_tons": 8900,
+        "total_liters": 258500000
+      },
+      {
+        "month": "Oct 2023",
+        "year": 2023,
+        "pms_liters": 160000000,
+        "diesel_liters": 110000000,
+        "kerosene_liters": 13800000,
+        "lpg_tons": 9600,
+        "total_liters": 283800000
+      },
+      {
+        "month": "Nov 2023",
+        "year": 2023,
+        "pms_liters": 165000000,
+        "diesel_liters": 115000000,
+        "kerosene_liters": 14200000,
+        "lpg_tons": 10100,
+        "total_liters": 294200000
+      },
+      {
+        "month": "Dec 2023",
+        "year": 2023,
+        "pms_liters": 172000000,
+        "diesel_liters": 120000000,
+        "kerosene_liters": 15000000,
+        "lpg_tons": 10600,
+        "total_liters": 307000000
+      },
+      {
+        "month": "Jan 2024",
+        "year": 2024,
+        "pms_liters": 168000000,
+        "diesel_liters": 118000000,
+        "kerosene_liters": 14500000,
+        "lpg_tons": 10200,
+        "total_liters": 300500000
+      },
+      {
+        "month": "Feb 2024",
+        "year": 2024,
+        "pms_liters": 162000000,
+        "diesel_liters": 112000000,
+        "kerosene_liters": 13800000,
+        "lpg_tons": 9800,
+        "total_liters": 287800000
+      },
+      {
+        "month": "Mar 2024",
+        "year": 2024,
+        "pms_liters": 175000000,
+        "diesel_liters": 122000000,
+        "kerosene_liters": 15200000,
+        "lpg_tons": 10800,
+        "total_liters": 312200000
+      },
+      {
+        "month": "Apr 2024",
+        "year": 2024,
+        "pms_liters": 180000000,
+        "diesel_liters": 126000000,
+        "kerosene_liters": 15800000,
+        "lpg_tons": 11200,
+        "total_liters": 321800000
+      },
+      {
+        "month": "May 2024",
+        "year": 2024,
+        "pms_liters": 186000000,
+        "diesel_liters": 130000000,
+        "kerosene_liters": 16200000,
+        "lpg_tons": 11600,
+        "total_liters": 332200000
+      },
+      {
+        "month": "Jun 2024",
+        "year": 2024,
+        "pms_liters": 192000000,
+        "diesel_liters": 135000000,
+        "kerosene_liters": 16800000,
+        "lpg_tons": 12100,
+        "total_liters": 343800000
+      },
+      {
+        "month": "Jul 2024",
+        "year": 2024,
+        "pms_liters": 184000000,
+        "diesel_liters": 128000000,
+        "kerosene_liters": 15800000,
+        "lpg_tons": 11500,
+        "total_liters": 327800000
+      },
+      {
+        "month": "Aug 2024",
+        "year": 2024,
+        "pms_liters": 178000000,
+        "diesel_liters": 124000000,
+        "kerosene_liters": 15200000,
+        "lpg_tons": 11100,
+        "total_liters": 317200000
+      },
+      {
+        "month": "Sep 2024",
+        "year": 2024,
+        "pms_liters": 172000000,
+        "diesel_liters": 120000000,
+        "kerosene_liters": 14800000,
+        "lpg_tons": 10700,
+        "total_liters": 306800000
+      },
+      {
+        "month": "Oct 2024",
+        "year": 2024,
+        "pms_liters": 188000000,
+        "diesel_liters": 132000000,
+        "kerosene_liters": 16500000,
+        "lpg_tons": 11900,
+        "total_liters": 336500000
+      },
+      {
+        "month": "Nov 2024",
+        "year": 2024,
+        "pms_liters": 195000000,
+        "diesel_liters": 138000000,
+        "kerosene_liters": 17200000,
+        "lpg_tons": 12500,
+        "total_liters": 350200000
+      },
+      {
+        "month": "Dec 2024",
+        "year": 2024,
+        "pms_liters": 205000000,
+        "diesel_liters": 145000000,
+        "kerosene_liters": 18200000,
+        "lpg_tons": 13200,
+        "total_liters": 368200000
+      },
+      {
+        "month": "Jan 2025",
+        "year": 2025,
+        "pms_liters": 202000000,
+        "diesel_liters": 142000000,
+        "kerosene_liters": 17500000,
+        "lpg_tons": 12800,
+        "total_liters": 361500000
+      },
+      {
+        "month": "Feb 2025",
+        "year": 2025,
+        "pms_liters": 195000000,
+        "diesel_liters": 136000000,
+        "kerosene_liters": 16800000,
+        "lpg_tons": 12200,
+        "total_liters": 347800000
+      },
+      {
+        "month": "Mar 2025",
+        "year": 2025,
+        "pms_liters": 210000000,
+        "diesel_liters": 148000000,
+        "kerosene_liters": 18500000,
+        "lpg_tons": 13500,
+        "total_liters": 376500000
+      },
+      {
+        "month": "Apr 2025",
+        "year": 2025,
+        "pms_liters": 215000000,
+        "diesel_liters": 152000000,
+        "kerosene_liters": 19000000,
+        "lpg_tons": 14000,
+        "total_liters": 386000000
+      },
+      {
+        "month": "May 2025",
+        "year": 2025,
+        "pms_liters": 222000000,
+        "diesel_liters": 158000000,
+        "kerosene_liters": 19800000,
+        "lpg_tons": 14500,
+        "total_liters": 399800000
+      },
+      {
+        "month": "Jun 2025",
+        "year": 2025,
+        "pms_liters": 228000000,
+        "diesel_liters": 162000000,
+        "kerosene_liters": 20200000,
+        "lpg_tons": 15100,
+        "total_liters": 410200000
+      },
+      {
+        "month": "Jul 2025",
+        "year": 2025,
+        "pms_liters": 218000000,
+        "diesel_liters": 154000000,
+        "kerosene_liters": 19200000,
+        "lpg_tons": 14400,
+        "total_liters": 391200000
+      },
+      {
+        "month": "Aug 2025",
+        "year": 2025,
+        "pms_liters": 212000000,
+        "diesel_liters": 150000000,
+        "kerosene_liters": 18600000,
+        "lpg_tons": 14000,
+        "total_liters": 380600000
+      },
+      {
+        "month": "Sep 2025",
+        "year": 2025,
+        "pms_liters": 205000000,
+        "diesel_liters": 145000000,
+        "kerosene_liters": 18000000,
+        "lpg_tons": 13500,
+        "total_liters": 368000000
+      },
+      {
+        "month": "Oct 2025",
+        "year": 2025,
+        "pms_liters": 224000000,
+        "diesel_liters": 158000000,
+        "kerosene_liters": 19800000,
+        "lpg_tons": 14800,
+        "total_liters": 401800000
+      },
+      {
+        "month": "Nov 2025",
+        "year": 2025,
+        "pms_liters": 232000000,
+        "diesel_liters": 165000000,
+        "kerosene_liters": 20500000,
+        "lpg_tons": 15400,
+        "total_liters": 417500000
+      },
+      {
+        "month": "Dec 2025",
+        "year": 2025,
+        "pms_liters": 242000000,
+        "diesel_liters": 172000000,
+        "kerosene_liters": 21500000,
+        "lpg_tons": 16200,
+        "total_liters": 435500000
+      }
+    ],
+    "annual_summary": {
+      "2023": {
+        "pms_liters": 1845000000,
+        "diesel_liters": 1271000000,
+        "kerosene_liters": 158500000,
+        "lpg_tons": 111600,
+        "total_liters": 3274500000,
+        "avg_daily_liters": 8971233
+      },
+      "2024": {
+        "pms_liters": 2205000000,
+        "diesel_liters": 1530000000,
+        "kerosene_liters": 190000000,
+        "lpg_tons": 136600,
+        "total_liters": 3925000000,
+        "avg_daily_liters": 10723288,
+        "yoy_growth_percent": 19.9
+      },
+      "2025": {
+        "pms_liters": 2605000000,
+        "diesel_liters": 1842000000,
+        "kerosene_liters": 229400000,
+        "lpg_tons": 166400,
+        "total_liters": 4676400000,
+        "avg_daily_liters": 12812329,
+        "yoy_growth_percent": 19.1
+      }
+    },
+    "fuel_type_mix": {
+      "2023": {
+        "pms_percent": 56.4,
+        "diesel_percent": 38.8,
+        "kerosene_percent": 4.8
+      },
+      "2024": {
+        "pms_percent": 56.2,
+        "diesel_percent": 39.0,
+        "kerosene_percent": 4.8
+      },
+      "2025": {
+        "pms_percent": 55.7,
+        "diesel_percent": 39.4,
+        "kerosene_percent": 4.9
+      }
+    }
+  }
+}

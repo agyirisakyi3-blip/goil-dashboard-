@@ -1,0 +1,214 @@
+{
+  "company": "Goil Ghana Limited",
+  "currency": "GHS",
+  "period": "2023-2025",
+  "revenue": {
+    "quarterly": [
+      {
+        "quarter": "Q1 2023",
+        "year": 2023,
+        "month": 3,
+        "fuel_sales": 485000000,
+        "lubricants": 28500000,
+        "convenience_store": 12300000,
+        "fleet_services": 8700000,
+        "other_income": 4200000,
+        "total_revenue": 538700000
+      },
+      {
+        "quarter": "Q2 2023",
+        "year": 2023,
+        "month": 6,
+        "fuel_sales": 512000000,
+        "lubricants": 31200000,
+        "convenience_store": 13800000,
+        "fleet_services": 9400000,
+        "other_income": 4800000,
+        "total_revenue": 571200000
+      },
+      {
+        "quarter": "Q3 2023",
+        "year": 2023,
+        "month": 9,
+        "fuel_sales": 498000000,
+        "lubricants": 29800000,
+        "convenience_store": 14200000,
+        "fleet_services": 9100000,
+        "other_income": 5100000,
+        "total_revenue": 556200000
+      },
+      {
+        "quarter": "Q4 2023",
+        "year": 2023,
+        "month": 12,
+        "fuel_sales": 545000000,
+        "lubricants": 33500000,
+        "convenience_store": 16800000,
+        "fleet_services": 10200000,
+        "other_income": 5600000,
+        "total_revenue": 611100000
+      },
+      {
+        "quarter": "Q1 2024",
+        "year": 2024,
+        "month": 3,
+        "fuel_sales": 578000000,
+        "lubricants": 36200000,
+        "convenience_store": 15400000,
+        "fleet_services": 11200000,
+        "other_income": 6100000,
+        "total_revenue": 646900000
+      },
+      {
+        "quarter": "Q2 2024",
+        "year": 2024,
+        "month": 6,
+        "fuel_sales": 612000000,
+        "lubricants": 38900000,
+        "convenience_store": 17200000,
+        "fleet_services": 12400000,
+        "other_income": 6800000,
+        "total_revenue": 687300000
+      },
+      {
+        "quarter": "Q3 2024",
+        "year": 2024,
+        "month": 9,
+        "fuel_sales": 595000000,
+        "lubricants": 37100000,
+        "convenience_store": 18100000,
+        "fleet_services": 11800000,
+        "other_income": 7200000,
+        "total_revenue": 669200000
+      },
+      {
+        "quarter": "Q4 2024",
+        "year": 2024,
+        "month": 12,
+        "fuel_sales": 648000000,
+        "lubricants": 41500000,
+        "convenience_store": 20500000,
+        "fleet_services": 13600000,
+        "other_income": 7900000,
+        "total_revenue": 731500000
+      },
+      {
+        "quarter": "Q1 2025",
+        "year": 2025,
+        "month": 3,
+        "fuel_sales": 692000000,
+        "lubricants": 44800000,
+        "convenience_store": 19200000,
+        "fleet_services": 14100000,
+        "other_income": 8500000,
+        "total_revenue": 778600000
+      },
+      {
+        "quarter": "Q2 2025",
+        "year": 2025,
+        "month": 6,
+        "fuel_sales": 728000000,
+        "lubricants": 47200000,
+        "convenience_store": 21800000,
+        "fleet_services": 15400000,
+        "other_income": 9200000,
+        "total_revenue": 821600000
+      },
+      {
+        "quarter": "Q3 2025",
+        "year": 2025,
+        "month": 9,
+        "fuel_sales": 715000000,
+        "lubricants": 45900000,
+        "convenience_store": 22500000,
+        "fleet_services": 14800000,
+        "other_income": 9800000,
+        "total_revenue": 808000000
+      },
+      {
+        "quarter": "Q4 2025",
+        "year": 2025,
+        "month": 12,
+        "fuel_sales": 768000000,
+        "lubricants": 50200000,
+        "convenience_store": 25100000,
+        "fleet_services": 16900000,
+        "other_income": 10500000,
+        "total_revenue": 870700000
+      }
+    ],
+    "annual_summary": {
+      "2023": {
+        "fuel_sales": 2040000000,
+        "lubricants": 123000000,
+        "convenience_store": 57100000,
+        "fleet_services": 37400000,
+        "other_income": 19700000,
+        "total_revenue": 2277200000,
+        "yoy_growth": null
+      },
+      "2024": {
+        "fuel_sales": 2433000000,
+        "lubricants": 153700000,
+        "convenience_store": 71200000,
+        "fleet_services": 49000000,
+        "other_income": 28000000,
+        "total_revenue": 2734900000,
+        "yoy_growth": 20.1
+      },
+      "2025": {
+        "fuel_sales": 2903000000,
+        "lubricants": 188100000,
+        "convenience_store": 88600000,
+        "fleet_services": 61200000,
+        "other_income": 38000000,
+        "total_revenue": 3278900000,
+        "yoy_growth": 19.9
+      }
+    },
+    "revenue_by_region": {
+      "2023": {
+        "greater_accra": 682160000,
+        "ashanti": 455440000,
+        "western": 341580000,
+        "central": 227720000,
+        "eastern": 182176000,
+        "volta": 136632000,
+        "northern": 113860000,
+        "upper_east": 68316000,
+        "upper_west": 45544000,
+        "bono": 91088000,
+        "bono_east": 68316000,
+        "otho_regions": 64428000
+      },
+      "2024": {
+        "greater_accra": 820470000,
+        "ashanti": 546980000,
+        "western": 410235000,
+        "central": 273490000,
+        "eastern": 218792000,
+        "volta": 164094000,
+        "northern": 136745000,
+        "upper_east": 82047000,
+        "upper_west": 54698000,
+        "bono": 109396000,
+        "bono_east": 82047000,
+        "other_regions": 77427000
+      },
+      "2025": {
+        "greater_accra": 983670000,
+        "ashanti": 655780000,
+        "western": 491835000,
+        "central": 327890000,
+        "eastern": 262312000,
+        "volta": 196734000,
+        "northern": 163945000,
+        "upper_east": 98367000,
+        "upper_west": 65578000,
+        "bono": 131156000,
+        "bono_east": 98367000,
+        "other_regions": 93024000
+      }
+    }
+  }
+}

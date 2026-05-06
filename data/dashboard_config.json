@@ -1,0 +1,692 @@
+{
+  "dashboard": {
+    "title": "Goil Ghana Financial Dashboard",
+    "subtitle": "Comprehensive Financial Analytics (2023-2025)",
+    "company": "Goil Ghana Limited",
+    "currency": "GHS",
+    "theme": {
+      "primary_color": "#1B5E20",
+      "secondary_color": "#FFB300",
+      "accent_color": "#0D47A1",
+      "background": "#F5F5F5",
+      "text_primary": "#212121",
+      "text_secondary": "#757575"
+    },
+    "layout": {
+      "sidebar": {
+        "navigation": [
+          {
+            "id": "overview",
+            "label": "Executive Overview",
+            "icon": "dashboard",
+            "order": 1
+          },
+          {
+            "id": "revenue",
+            "label": "Revenue Analytics",
+            "icon": "trending_up",
+            "order": 2
+          },
+          {
+            "id": "expenses",
+            "label": "Expense Management",
+            "icon": "account_balance_wallet",
+            "order": 3
+          },
+          {
+            "id": "profitability",
+            "label": "Profitability",
+            "icon": "show_chart",
+            "order": 4
+          },
+          {
+            "id": "fuel_sales",
+            "label": "Fuel Sales Volume",
+            "icon": "local_gas_station",
+            "order": 5
+          },
+          {
+            "id": "balance_sheet",
+            "label": "Balance Sheet",
+            "icon": "balance",
+            "order": 6
+          },
+          {
+            "id": "cash_flow",
+            "label": "Cash Flow",
+            "icon": "payments",
+            "order": 7
+          },
+          {
+            "id": "operations",
+            "label": "Operations",
+            "icon": "settings",
+            "order": 8
+          },
+          {
+            "id": "regional",
+            "label": "Regional Performance",
+            "icon": "map",
+            "order": 9
+          }
+        ]
+      }
+    },
+    "pages": {
+      "overview": {
+        "title": "Executive Overview",
+        "kpi_cards": [
+          {
+            "id": "total_revenue",
+            "label": "Total Revenue",
+            "data_source": "revenue.annual_summary",
+            "field": "total_revenue",
+            "format": "currency",
+            "show_yoy": true,
+            "trend": "up"
+          },
+          {
+            "id": "net_profit",
+            "label": "Net Profit",
+            "data_source": "calculated",
+            "formula": "revenue - expenses",
+            "format": "currency",
+            "show_yoy": true,
+            "trend": "up"
+          },
+          {
+            "id": "gross_margin",
+            "label": "Gross Margin",
+            "data_source": "operational_metrics.kpis.quarterly",
+            "field": "gross_profit_margin",
+            "format": "percent",
+            "show_yoy": true,
+            "trend": "up"
+          },
+          {
+            "id": "total_stations",
+            "label": "Total Stations",
+            "data_source": "operational_metrics.station_network",
+            "field": "total_stations",
+            "format": "number",
+            "show_yoy": true,
+            "trend": "up"
+          },
+          {
+            "id": "fuel_volume",
+            "label": "Fuel Volume (Liters)",
+            "data_source": "fuel_sales_volume.annual_summary",
+            "field": "total_liters",
+            "format": "volume",
+            "show_yoy": true,
+            "trend": "up"
+          },
+          {
+            "id": "employees",
+            "label": "Total Employees",
+            "data_source": "operational_metrics.employee_metrics",
+            "field": "total_employees",
+            "format": "number",
+            "show_yoy": true,
+            "trend": "up"
+          }
+        ],
+        "charts": [
+          {
+            "id": "revenue_trend",
+            "type": "line",
+            "title": "Revenue Trend (Quarterly)",
+            "data_source": "revenue.quarterly",
+            "x_axis": "quarter",
+            "y_axis": "total_revenue",
+            "series": ["total_revenue", "fuel_sales", "lubricants"],
+            "width": "full",
+            "height": "medium"
+          },
+          {
+            "id": "profit_loss",
+            "type": "bar",
+            "title": "Profit & Loss Summary",
+            "data_source": "calculated",
+            "x_axis": "year",
+            "series": ["revenue", "total_expenses", "net_profit"],
+            "width": "half",
+            "height": "medium"
+          },
+          {
+            "id": "revenue_mix",
+            "type": "pie",
+            "title": "Revenue Mix (Latest Year)",
+            "data_source": "revenue.annual_summary",
+            "segments": ["fuel_sales", "lubricants", "convenience_store", "fleet_services", "other_income"],
+            "width": "half",
+            "height": "medium"
+          }
+        ]
+      },
+      "revenue": {
+        "title": "Revenue Analytics",
+        "kpi_cards": [
+          {
+            "id": "revenue_growth",
+            "label": "Revenue Growth",
+            "data_source": "revenue.annual_summary",
+            "field": "yoy_growth",
+            "format": "percent"
+          },
+          {
+            "id": "avg_quarterly_revenue",
+            "label": "Avg Quarterly Revenue",
+            "data_source": "calculated",
+            "formula": "total_revenue / 4",
+            "format": "currency"
+          }
+        ],
+        "charts": [
+          {
+            "id": "quarterly_revenue",
+            "type": "bar",
+            "title": "Quarterly Revenue Breakdown",
+            "data_source": "revenue.quarterly",
+            "x_axis": "quarter",
+            "series": ["fuel_sales", "lubricants", "convenience_store", "fleet_services", "other_income"],
+            "stacked": true,
+            "width": "full",
+            "height": "large"
+          },
+          {
+            "id": "revenue_growth_rate",
+            "type": "line",
+            "title": "Revenue Growth Rate",
+            "data_source": "calculated",
+            "x_axis": "quarter",
+            "y_axis": "growth_rate",
+            "width": "half",
+            "height": "medium"
+          },
+          {
+            "id": "revenue_forecast",
+            "type": "line",
+            "title": "Revenue Forecast",
+            "data_source": "revenue.quarterly",
+            "include_projection": true,
+            "width": "half",
+            "height": "medium"
+          }
+        ],
+        "table": {
+          "title": "Revenue Detail by Quarter",
+          "data_source": "revenue.quarterly",
+          "columns": [
+            "quarter",
+            "fuel_sales",
+            "lubricants",
+            "convenience_store",
+            "fleet_services",
+            "other_income",
+            "total_revenue"
+          ]
+        }
+      },
+      "expenses": {
+        "title": "Expense Management",
+        "kpi_cards": [
+          {
+            "id": "total_expenses",
+            "label": "Total Expenses",
+            "data_source": "expenses.annual_summary",
+            "field": "total_expenses",
+            "format": "currency"
+          },
+          {
+            "id": "cogs_percent",
+            "label": "COGS % of Revenue",
+            "data_source": "expenses.annual_summary",
+            "field": "cogs_percentage",
+            "format": "percent"
+          },
+          {
+            "id": "opex_percent",
+            "label": "OPEX % of Revenue",
+            "data_source": "expenses.annual_summary",
+            "field": "opex_percentage",
+            "format": "percent"
+          }
+        ],
+        "charts": [
+          {
+            "id": "expense_breakdown",
+            "type": "pie",
+            "title": "Expense Breakdown (Latest Year)",
+            "data_source": "expenses.annual_summary",
+            "segments": [
+              "cost_of_goods_sold",
+              "employee_costs",
+              "transport_logistics",
+              "marketing_advertising",
+              "maintenance_repairs",
+              "utilities",
+              "depreciation",
+              "other_expenses"
+            ],
+            "width": "half",
+            "height": "medium"
+          },
+          {
+            "id": "expense_trend",
+            "type": "line",
+            "title": "Expense Trend (Quarterly)",
+            "data_source": "expenses.quarterly",
+            "x_axis": "quarter",
+            "series": ["total_expenses", "cost_of_goods_sold", "employee_costs"],
+            "width": "full",
+            "height": "medium"
+          },
+          {
+            "id": "expense_vs_revenue",
+            "type": "bar",
+            "title": "Expenses vs Revenue",
+            "data_source": "calculated",
+            "x_axis": "year",
+            "series": ["total_revenue", "total_expenses"],
+            "width": "half",
+            "height": "medium"
+          }
+        ]
+      },
+      "profitability": {
+        "title": "Profitability Analysis",
+        "kpi_cards": [
+          {
+            "id": "net_margin",
+            "label": "Net Profit Margin",
+            "data_source": "operational_metrics.kpis.quarterly",
+            "field": "net_profit_margin",
+            "format": "percent"
+          },
+          {
+            "id": "ebitda_margin",
+            "label": "EBITDA Margin",
+            "data_source": "operational_metrics.kpis.quarterly",
+            "field": "ebitda_margin",
+            "format": "percent"
+          },
+          {
+            "id": "roe",
+            "label": "Return on Equity",
+            "data_source": "operational_metrics.kpis.quarterly",
+            "field": "return_on_equity",
+            "format": "percent"
+          },
+          {
+            "id": "roa",
+            "label": "Return on Assets",
+            "data_source": "operational_metrics.kpis.quarterly",
+            "field": "return_on_assets",
+            "format": "percent"
+          }
+        ],
+        "charts": [
+          {
+            "id": "margin_trends",
+            "type": "line",
+            "title": "Margin Trends",
+            "data_source": "operational_metrics.kpis.quarterly",
+            "x_axis": "quarter",
+            "series": ["gross_profit_margin", "net_profit_margin", "ebitda_margin"],
+            "width": "full",
+            "height": "medium"
+          },
+          {
+            "id": "profitability_ratios",
+            "type": "radar",
+            "title": "Profitability Ratios",
+            "data_source": "operational_metrics.kpis.quarterly",
+            "metrics": ["return_on_assets", "return_on_equity", "gross_profit_margin", "net_profit_margin"],
+            "width": "half",
+            "height": "medium"
+          },
+          {
+            "id": "profit_by_year",
+            "type": "bar",
+            "title": "Annual Profit Comparison",
+            "data_source": "calculated",
+            "x_axis": "year",
+            "series": ["gross_profit", "operating_profit", "net_profit"],
+            "stacked": false,
+            "width": "half",
+            "height": "medium"
+          }
+        ]
+      },
+      "fuel_sales": {
+        "title": "Fuel Sales Volume",
+        "kpi_cards": [
+          {
+            "id": "total_volume",
+            "label": "Total Volume (Liters)",
+            "data_source": "fuel_sales_volume.annual_summary",
+            "field": "total_liters",
+            "format": "volume"
+          },
+          {
+            "id": "avg_daily_liters",
+            "label": "Avg Daily Liters",
+            "data_source": "fuel_sales_volume.annual_summary",
+            "field": "avg_daily_liters",
+            "format": "number"
+          },
+          {
+            "id": "lpg_tons",
+            "label": "LPG Sales (Tons)",
+            "data_source": "fuel_sales_volume.annual_summary",
+            "field": "lpg_tons",
+            "format": "number"
+          }
+        ],
+        "charts": [
+          {
+            "id": "volume_trend",
+            "type": "line",
+            "title": "Monthly Sales Volume Trend",
+            "data_source": "fuel_sales_volume.monthly",
+            "x_axis": "month",
+            "y_axis": "total_liters",
+            "series": ["pms_liters", "diesel_liters", "kerosene_liters"],
+            "width": "full",
+            "height": "large"
+          },
+          {
+            "id": "fuel_mix",
+            "type": "pie",
+            "title": "Fuel Type Mix",
+            "data_source": "fuel_sales_volume.fuel_type_mix",
+            "segments": ["pms_percent", "diesel_percent", "kerosene_percent"],
+            "width": "half",
+            "height": "medium"
+          },
+          {
+            "id": "lpg_trend",
+            "type": "bar",
+            "title": "LPG Sales Trend (Tons)",
+            "data_source": "fuel_sales_volume.monthly",
+            "x_axis": "month",
+            "series": ["lpg_tons"],
+            "width": "half",
+            "height": "medium"
+          }
+        ]
+      },
+      "balance_sheet": {
+        "title": "Balance Sheet",
+        "kpi_cards": [
+          {
+            "id": "total_assets",
+            "label": "Total Assets",
+            "data_source": "balance_sheet.annual",
+            "field": "total_assets",
+            "format": "currency"
+          },
+          {
+            "id": "total_equity",
+            "label": "Total Equity",
+            "data_source": "balance_sheet.annual",
+            "field": "total_equity",
+            "format": "currency"
+          },
+          {
+            "id": "working_capital",
+            "label": "Working Capital",
+            "data_source": "balance_sheet.key_ratios",
+            "field": "working_capital",
+            "format": "currency"
+          },
+          {
+            "id": "debt_to_equity",
+            "label": "Debt-to-Equity",
+            "data_source": "balance_sheet.key_ratios",
+            "field": "debt_to_equity",
+            "format": "ratio"
+          }
+        ],
+        "charts": [
+          {
+            "id": "assets_liabilities",
+            "type": "bar",
+            "title": "Assets vs Liabilities vs Equity",
+            "data_source": "balance_sheet.annual",
+            "x_axis": "year",
+            "series": ["total_assets", "total_liabilities", "total_equity"],
+            "width": "full",
+            "height": "medium"
+          },
+          {
+            "id": "asset_composition",
+            "type": "pie",
+            "title": "Asset Composition (Latest Year)",
+            "data_source": "balance_sheet.annual",
+            "segments": ["total_current_assets", "net_ppe", "intangible_assets", "long_term_investments"],
+            "width": "half",
+            "height": "medium"
+          },
+          {
+            "id": "liquidity_ratios",
+            "type": "line",
+            "title": "Liquidity Ratios Trend",
+            "data_source": "balance_sheet.key_ratios",
+            "x_axis": "year",
+            "series": ["current_ratio", "quick_ratio"],
+            "width": "half",
+            "height": "medium"
+          }
+        ]
+      },
+      "cash_flow": {
+        "title": "Cash Flow Analysis",
+        "kpi_cards": [
+          {
+            "id": "operating_cash_flow",
+            "label": "Operating Cash Flow",
+            "data_source": "cash_flow.annual_summary",
+            "field": "net_cash_from_operations",
+            "format": "currency"
+          },
+          {
+            "id": "free_cash_flow",
+            "label": "Free Cash Flow",
+            "data_source": "cash_flow.annual_summary",
+            "field": "free_cash_flow",
+            "format": "currency"
+          },
+          {
+            "id": "capex",
+            "label": "Capital Expenditure",
+            "data_source": "cash_flow.annual_summary",
+            "field": "capex",
+            "format": "currency"
+          }
+        ],
+        "charts": [
+          {
+            "id": "cash_flow_components",
+            "type": "bar",
+            "title": "Cash Flow by Component",
+            "data_source": "cash_flow.annual_summary",
+            "x_axis": "year",
+            "series": ["net_cash_from_operations", "net_cash_from_investing", "net_cash_from_financing"],
+            "width": "full",
+            "height": "medium"
+          },
+          {
+            "id": "free_cash_flow_trend",
+            "type": "line",
+            "title": "Free Cash Flow Trend",
+            "data_source": "cash_flow.annual_summary",
+            "x_axis": "year",
+            "series": ["free_cash_flow"],
+            "width": "half",
+            "height": "medium"
+          },
+          {
+            "id": "cash_conversion",
+            "type": "gauge",
+            "title": "Cash Conversion Ratio",
+            "data_source": "calculated",
+            "formula": "operating_cash_flow / net_income",
+            "width": "half",
+            "height": "medium"
+          }
+        ]
+      },
+      "operations": {
+        "title": "Operations Dashboard",
+        "kpi_cards": [
+          {
+            "id": "station_count",
+            "label": "Total Stations",
+            "data_source": "operational_metrics.station_network",
+            "field": "total_stations",
+            "format": "number"
+          },
+          {
+            "id": "uptime",
+            "label": "Operational Uptime",
+            "data_source": "operational_metrics.station_network",
+            "field": "operational_uptime_percent",
+            "format": "percent"
+          },
+          {
+            "id": "satisfaction",
+            "label": "Customer Satisfaction",
+            "data_source": "operational_metrics.customer_metrics",
+            "field": "customer_satisfaction_score",
+            "format": "score"
+          },
+          {
+            "id": "nps",
+            "label": "NPS Score",
+            "data_source": "operational_metrics.customer_metrics",
+            "field": "nps_score",
+            "format": "number"
+          }
+        ],
+        "charts": [
+          {
+            "id": "station_growth",
+            "type": "bar",
+            "title": "Station Network Growth",
+            "data_source": "operational_metrics.station_network",
+            "x_axis": "year",
+            "series": ["company_owned", "dealer_owned", "franchise"],
+            "stacked": true,
+            "width": "half",
+            "height": "medium"
+          },
+          {
+            "id": "employee_growth",
+            "type": "line",
+            "title": "Employee Growth",
+            "data_source": "operational_metrics.employee_metrics",
+            "x_axis": "year",
+            "series": ["total_employees"],
+            "width": "half",
+            "height": "medium"
+          },
+          {
+            "id": "loyalty_growth",
+            "type": "line",
+            "title": "Loyalty Program Members",
+            "data_source": "operational_metrics.customer_metrics",
+            "x_axis": "year",
+            "series": ["loyalty_program_members"],
+            "width": "half",
+            "height": "medium"
+          },
+          {
+            "id": "safety_incidents",
+            "type": "bar",
+            "title": "Safety Incidents (Lower is Better)",
+            "data_source": "operational_metrics.employee_metrics",
+            "x_axis": "year",
+            "series": ["safety_incidents"],
+            "width": "half",
+            "height": "medium"
+          }
+        ]
+      },
+      "regional": {
+        "title": "Regional Performance",
+        "charts": [
+          {
+            "id": "regional_revenue",
+            "type": "map",
+            "title": "Revenue by Region",
+            "data_source": "revenue.revenue_by_region",
+            "value_field": "revenue",
+            "width": "full",
+            "height": "large"
+          },
+          {
+            "id": "regional_comparison",
+            "type": "bar",
+            "title": "Regional Revenue Comparison",
+            "data_source": "revenue.revenue_by_region",
+            "x_axis": "region",
+            "series": ["2023", "2024", "2025"],
+            "horizontal": true,
+            "width": "full",
+            "height": "large"
+          },
+          {
+            "id": "top_regions",
+            "type": "table",
+            "title": "Top Performing Regions",
+            "data_source": "revenue.revenue_by_region",
+            "sort_by": "revenue",
+            "sort_order": "desc",
+            "width": "full",
+            "height": "medium"
+          }
+        ]
+      }
+    },
+    "filters": {
+      "global": [
+        {
+          "id": "year_filter",
+          "type": "multi_select",
+          "label": "Year",
+          "options": [2023, 2024, 2025],
+          "default": [2025]
+        },
+        {
+          "id": "quarter_filter",
+          "type": "multi_select",
+          "label": "Quarter",
+          "options": ["Q1", "Q2", "Q3", "Q4"],
+          "default": ["Q1", "Q2", "Q3", "Q4"]
+        },
+        {
+          "id": "region_filter",
+          "type": "multi_select",
+          "label": "Region",
+          "options": [
+            "Greater Accra",
+            "Ashanti",
+            "Western",
+            "Central",
+            "Eastern",
+            "Volta",
+            "Northern",
+            "Upper East",
+            "Upper West",
+            "Bono",
+            "Bono East",
+            "Other Regions"
+          ],
+          "default": "all"
+        }
+      ]
+    }
+  }
+}

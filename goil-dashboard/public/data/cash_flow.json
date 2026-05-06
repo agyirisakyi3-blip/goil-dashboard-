@@ -1,0 +1,350 @@
+{
+  "company": "Goil Ghana Limited",
+  "currency": "GHS",
+  "period": "2023-2025",
+  "cash_flow": {
+    "quarterly": [
+      {
+        "quarter": "Q1 2023",
+        "operating_activities": {
+          "net_income": 20470000,
+          "depreciation_amortization": 15600000,
+          "changes_in_working_capital": -12500000,
+          "other_operating_activities": 5200000,
+          "net_cash_from_operations": 28770000
+        },
+        "investing_activities": {
+          "capital_expenditures": -32000000,
+          "asset_sales": 2800000,
+          "investments_purchases": -8500000,
+          "other_investing_activities": -1200000,
+          "net_cash_from_investing": -38900000
+        },
+        "financing_activities": {
+          "debt_proceeds": 25000000,
+          "debt_repayments": -18000000,
+          "dividends_paid": -8500000,
+          "other_financing_activities": -2100000,
+          "net_cash_from_financing": -3600000
+        },
+        "net_change_in_cash": -13730000,
+        "free_cash_flow": -3230000
+      },
+      {
+        "quarter": "Q2 2023",
+        "operating_activities": {
+          "net_income": 23420000,
+          "depreciation_amortization": 15800000,
+          "changes_in_working_capital": -8200000,
+          "other_operating_activities": 6100000,
+          "net_cash_from_operations": 37120000
+        },
+        "investing_activities": {
+          "capital_expenditures": -35000000,
+          "asset_sales": 3200000,
+          "investments_purchases": -9200000,
+          "other_investing_activities": -1500000,
+          "net_cash_from_investing": -42500000
+        },
+        "financing_activities": {
+          "debt_proceeds": 15000000,
+          "debt_repayments": -12000000,
+          "dividends_paid": -8500000,
+          "other_financing_activities": -1800000,
+          "net_cash_from_financing": -7300000
+        },
+        "net_change_in_cash": -12680000,
+        "free_cash_flow": 2120000
+      },
+      {
+        "quarter": "Q3 2023",
+        "operating_activities": {
+          "net_income": 21690000,
+          "depreciation_amortization": 15700000,
+          "changes_in_working_capital": -5800000,
+          "other_operating_activities": 5800000,
+          "net_cash_from_operations": 37390000
+        },
+        "investing_activities": {
+          "capital_expenditures": -28000000,
+          "asset_sales": 2500000,
+          "investments_purchases": -7800000,
+          "other_investing_activities": -1100000,
+          "net_cash_from_investing": -34400000
+        },
+        "financing_activities": {
+          "debt_proceeds": 10000000,
+          "debt_repayments": -15000000,
+          "dividends_paid": -8500000,
+          "other_financing_activities": -1500000,
+          "net_cash_from_financing": -15000000
+        },
+        "net_change_in_cash": -12010000,
+        "free_cash_flow": 9390000
+      },
+      {
+        "quarter": "Q4 2023",
+        "operating_activities": {
+          "net_income": 27495000,
+          "depreciation_amortization": 16100000,
+          "changes_in_working_capital": 8500000,
+          "other_operating_activities": 7200000,
+          "net_cash_from_operations": 59295000
+        },
+        "investing_activities": {
+          "capital_expenditures": -38000000,
+          "asset_sales": 4100000,
+          "investments_purchases": -11500000,
+          "other_investing_activities": -1800000,
+          "net_cash_from_investing": -47200000
+        },
+        "financing_activities": {
+          "debt_proceeds": 20000000,
+          "debt_repayments": -22000000,
+          "dividends_paid": -10500000,
+          "other_financing_activities": -2200000,
+          "net_cash_from_financing": -14700000
+        },
+        "net_change_in_cash": -2605000,
+        "free_cash_flow": 21295000
+      },
+      {
+        "quarter": "Q1 2024",
+        "operating_activities": {
+          "net_income": 31050000,
+          "depreciation_amortization": 17200000,
+          "changes_in_working_capital": -10200000,
+          "other_operating_activities": 7800000,
+          "net_cash_from_operations": 45850000
+        },
+        "investing_activities": {
+          "capital_expenditures": -42000000,
+          "asset_sales": 3800000,
+          "investments_purchases": -12500000,
+          "other_investing_activities": -1600000,
+          "net_cash_from_investing": -52300000
+        },
+        "financing_activities": {
+          "debt_proceeds": 18000000,
+          "debt_repayments": -25000000,
+          "dividends_paid": -10500000,
+          "other_financing_activities": -2500000,
+          "net_cash_from_financing": -20000000
+        },
+        "net_change_in_cash": -26450000,
+        "free_cash_flow": 3850000
+      },
+      {
+        "quarter": "Q2 2024",
+        "operating_activities": {
+          "net_income": 35055000,
+          "depreciation_amortization": 17400000,
+          "changes_in_working_capital": -6800000,
+          "other_operating_activities": 8500000,
+          "net_cash_from_operations": 54155000
+        },
+        "investing_activities": {
+          "capital_expenditures": -45000000,
+          "asset_sales": 4200000,
+          "investments_purchases": -13800000,
+          "other_investing_activities": -1900000,
+          "net_cash_from_investing": -56500000
+        },
+        "financing_activities": {
+          "debt_proceeds": 12000000,
+          "debt_repayments": -18000000,
+          "dividends_paid": -10500000,
+          "other_financing_activities": -2200000,
+          "net_cash_from_financing": -18700000
+        },
+        "net_change_in_cash": -21045000,
+        "free_cash_flow": 9155000
+      },
+      {
+        "quarter": "Q3 2024",
+        "operating_activities": {
+          "net_income": 32770000,
+          "depreciation_amortization": 17300000,
+          "changes_in_working_capital": -4500000,
+          "other_operating_activities": 8200000,
+          "net_cash_from_operations": 53770000
+        },
+        "investing_activities": {
+          "capital_expenditures": -38000000,
+          "asset_sales": 3500000,
+          "investments_purchases": -12200000,
+          "other_investing_activities": -1700000,
+          "net_cash_from_investing": -48400000
+        },
+        "financing_activities": {
+          "debt_proceeds": 8000000,
+          "debt_repayments": -20000000,
+          "dividends_paid": -10500000,
+          "other_financing_activities": -2000000,
+          "net_cash_from_financing": -24500000
+        },
+        "net_change_in_cash": -19130000,
+        "free_cash_flow": 15770000
+      },
+      {
+        "quarter": "Q4 2024",
+        "operating_activities": {
+          "net_income": 39500000,
+          "depreciation_amortization": 17800000,
+          "changes_in_working_capital": 12500000,
+          "other_operating_activities": 9200000,
+          "net_cash_from_operations": 79000000
+        },
+        "investing_activities": {
+          "capital_expenditures": -52000000,
+          "asset_sales": 5200000,
+          "investments_purchases": -15500000,
+          "other_investing_activities": -2100000,
+          "net_cash_from_investing": -64400000
+        },
+        "financing_activities": {
+          "debt_proceeds": 15000000,
+          "debt_repayments": -28000000,
+          "dividends_paid": -12500000,
+          "other_financing_activities": -2800000,
+          "net_cash_from_financing": -28300000
+        },
+        "net_change_in_cash": -13700000,
+        "free_cash_flow": 27000000
+      },
+      {
+        "quarter": "Q1 2025",
+        "operating_activities": {
+          "net_income": 43600000,
+          "depreciation_amortization": 18900000,
+          "changes_in_working_capital": -8500000,
+          "other_operating_activities": 9800000,
+          "net_cash_from_operations": 63800000
+        },
+        "investing_activities": {
+          "capital_expenditures": -48000000,
+          "asset_sales": 4500000,
+          "investments_purchases": -14200000,
+          "other_investing_activities": -1800000,
+          "net_cash_from_investing": -59500000
+        },
+        "financing_activities": {
+          "debt_proceeds": 10000000,
+          "debt_repayments": -22000000,
+          "dividends_paid": -12500000,
+          "other_financing_activities": -2500000,
+          "net_cash_from_financing": -27000000
+        },
+        "net_change_in_cash": -22700000,
+        "free_cash_flow": 15800000
+      },
+      {
+        "quarter": "Q2 2025",
+        "operating_activities": {
+          "net_income": 48500000,
+          "depreciation_amortization": 19200000,
+          "changes_in_working_capital": -5200000,
+          "other_operating_activities": 10500000,
+          "net_cash_from_operations": 73000000
+        },
+        "investing_activities": {
+          "capital_expenditures": -52000000,
+          "asset_sales": 5000000,
+          "investments_purchases": -15800000,
+          "other_investing_activities": -2000000,
+          "net_cash_from_investing": -64800000
+        },
+        "financing_activities": {
+          "debt_proceeds": 8000000,
+          "debt_repayments": -18000000,
+          "dividends_paid": -12500000,
+          "other_financing_activities": -2200000,
+          "net_cash_from_financing": -24700000
+        },
+        "net_change_in_cash": -16500000,
+        "free_cash_flow": 21000000
+      },
+      {
+        "quarter": "Q3 2025",
+        "operating_activities": {
+          "net_income": 46700000,
+          "depreciation_amortization": 19100000,
+          "changes_in_working_capital": -3200000,
+          "other_operating_activities": 10200000,
+          "net_cash_from_operations": 72800000
+        },
+        "investing_activities": {
+          "capital_expenditures": -45000000,
+          "asset_sales": 4200000,
+          "investments_purchases": -14500000,
+          "other_investing_activities": -1800000,
+          "net_cash_from_investing": -57100000
+        },
+        "financing_activities": {
+          "debt_proceeds": 5000000,
+          "debt_repayments": -20000000,
+          "dividends_paid": -12500000,
+          "other_financing_activities": -2000000,
+          "net_cash_from_financing": -29500000
+        },
+        "net_change_in_cash": -13800000,
+        "free_cash_flow": 27800000
+      },
+      {
+        "quarter": "Q4 2025",
+        "operating_activities": {
+          "net_income": 53900000,
+          "depreciation_amortization": 19600000,
+          "changes_in_working_capital": 15200000,
+          "other_operating_activities": 11200000,
+          "net_cash_from_operations": 99900000
+        },
+        "investing_activities": {
+          "capital_expenditures": -58000000,
+          "asset_sales": 6200000,
+          "investments_purchases": -18500000,
+          "other_investing_activities": -2500000,
+          "net_cash_from_investing": -72800000
+        },
+        "financing_activities": {
+          "debt_proceeds": 12000000,
+          "debt_repayments": -25000000,
+          "dividends_paid": -15000000,
+          "other_financing_activities": -3000000,
+          "net_cash_from_financing": -31000000
+        },
+        "net_change_in_cash": -3900000,
+        "free_cash_flow": 41900000
+      }
+    ],
+    "annual_summary": {
+      "2023": {
+        "net_cash_from_operations": 162575000,
+        "net_cash_from_investing": -163000000,
+        "net_cash_from_financing": -40600000,
+        "net_change_in_cash": -41025000,
+        "free_cash_flow": 29575000,
+        "capex": -133000000,
+        "dividends_paid": -36000000
+      },
+      "2024": {
+        "net_cash_from_operations": 232775000,
+        "net_cash_from_investing": -221600000,
+        "net_cash_from_financing": -91500000,
+        "net_change_in_cash": -80325000,
+        "free_cash_flow": 55775000,
+        "capex": -177000000,
+        "dividends_paid": -44000000
+      },
+      "2025": {
+        "net_cash_from_operations": 309500000,
+        "net_cash_from_investing": -254200000,
+        "net_cash_from_financing": -112200000,
+        "net_change_in_cash": -56900000,
+        "free_cash_flow": 106500000,
+        "capex": -203000000,
+        "dividends_paid": -52500000
+      }
+    }
+  }
+}

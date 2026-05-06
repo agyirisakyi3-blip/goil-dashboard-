@@ -1,0 +1,188 @@
+{
+  "company": "Goil Ghana Limited",
+  "currency": "GHS",
+  "period": "2023-2025",
+  "balance_sheet": {
+    "annual": {
+      "2023": {
+        "assets": {
+          "current_assets": {
+            "cash_and_equivalents": 145000000,
+            "short_term_investments": 35000000,
+            "accounts_receivable": 218000000,
+            "inventory": 185000000,
+            "prepaid_expenses": 28000000,
+            "other_current_assets": 22000000,
+            "total_current_assets": 633000000
+          },
+          "non_current_assets": {
+            "property_plant_equipment": 892000000,
+            "accumulated_depreciation": -356000000,
+            "net_ppe": 536000000,
+            "intangible_assets": 45000000,
+            "long_term_investments": 68000000,
+            "deferred_tax_assets": 32000000,
+            "other_non_current_assets": 28000000,
+            "total_non_current_assets": 709000000
+          },
+          "total_assets": 1342000000
+        },
+        "liabilities": {
+          "current_liabilities": {
+            "accounts_payable": 195000000,
+            "short_term_debt": 85000000,
+            "accrued_expenses": 68000000,
+            "taxes_payable": 42000000,
+            "deferred_revenue": 15000000,
+            "other_current_liabilities": 32000000,
+            "total_current_liabilities": 437000000
+          },
+          "non_current_liabilities": {
+            "long_term_debt": 325000000,
+            "deferred_tax_liabilities": 28000000,
+            "pension_obligations": 45000000,
+            "other_non_current_liabilities": 22000000,
+            "total_non_current_liabilities": 420000000
+          },
+          "total_liabilities": 857000000
+        },
+        "equity": {
+          "share_capital": 150000000,
+          "retained_earnings": 285000000,
+          "treasury_stock": -12000000,
+          "other_comprehensive_income": 62000000,
+          "total_equity": 485000000
+        },
+        "total_liabilities_and_equity": 1342000000
+      },
+      "2024": {
+        "assets": {
+          "current_assets": {
+            "cash_and_equivalents": 178000000,
+            "short_term_investments": 42000000,
+            "accounts_receivable": 252000000,
+            "inventory": 215000000,
+            "prepaid_expenses": 32000000,
+            "other_current_assets": 26000000,
+            "total_current_assets": 745000000
+          },
+          "non_current_assets": {
+            "property_plant_equipment": 1025000000,
+            "accumulated_depreciation": -412000000,
+            "net_ppe": 613000000,
+            "intangible_assets": 52000000,
+            "long_term_investments": 78000000,
+            "deferred_tax_assets": 36000000,
+            "other_non_current_assets": 32000000,
+            "total_non_current_assets": 811000000
+          },
+          "total_assets": 1556000000
+        },
+        "liabilities": {
+          "current_liabilities": {
+            "accounts_payable": 225000000,
+            "short_term_debt": 92000000,
+            "accrued_expenses": 78000000,
+            "taxes_payable": 48000000,
+            "deferred_revenue": 18000000,
+            "other_current_liabilities": 36000000,
+            "total_current_liabilities": 497000000
+          },
+          "non_current_liabilities": {
+            "long_term_debt": 298000000,
+            "deferred_tax_liabilities": 32000000,
+            "pension_obligations": 52000000,
+            "other_non_current_liabilities": 25000000,
+            "total_non_current_liabilities": 407000000
+          },
+          "total_liabilities": 904000000
+        },
+        "equity": {
+          "share_capital": 150000000,
+          "retained_earnings": 445000000,
+          "treasury_stock": -15000000,
+          "other_comprehensive_income": 72000000,
+          "total_equity": 652000000
+        },
+        "total_liabilities_and_equity": 1556000000
+      },
+      "2025": {
+        "assets": {
+          "current_assets": {
+            "cash_and_equivalents": 215000000,
+            "short_term_investments": 52000000,
+            "accounts_receivable": 295000000,
+            "inventory": 248000000,
+            "prepaid_expenses": 38000000,
+            "other_current_assets": 32000000,
+            "total_current_assets": 880000000
+          },
+          "non_current_assets": {
+            "property_plant_equipment": 1185000000,
+            "accumulated_depreciation": -475000000,
+            "net_ppe": 710000000,
+            "intangible_assets": 62000000,
+            "long_term_investments": 92000000,
+            "deferred_tax_assets": 42000000,
+            "other_non_current_assets": 38000000,
+            "total_non_current_assets": 944000000
+          },
+          "total_assets": 1824000000
+        },
+        "liabilities": {
+          "current_liabilities": {
+            "accounts_payable": 258000000,
+            "short_term_debt": 98000000,
+            "accrued_expenses": 88000000,
+            "taxes_payable": 55000000,
+            "deferred_revenue": 22000000,
+            "other_current_liabilities": 42000000,
+            "total_current_liabilities": 563000000
+          },
+          "non_current_liabilities": {
+            "long_term_debt": 268000000,
+            "deferred_tax_liabilities": 36000000,
+            "pension_obligations": 58000000,
+            "other_non_current_liabilities": 28000000,
+            "total_non_current_liabilities": 390000000
+          },
+          "total_liabilities": 953000000
+        },
+        "equity": {
+          "share_capital": 150000000,
+          "retained_earnings": 645000000,
+          "treasury_stock": -18000000,
+          "other_comprehensive_income": 94000000,
+          "total_equity": 871000000
+        },
+        "total_liabilities_and_equity": 1824000000
+      }
+    },
+    "key_ratios": {
+      "2023": {
+        "current_ratio": 1.45,
+        "quick_ratio": 1.02,
+        "debt_to_equity": 0.85,
+        "debt_to_assets": 0.31,
+        "equity_multiplier": 2.77,
+        "working_capital": 196000000
+      },
+      "2024": {
+        "current_ratio": 1.50,
+        "quick_ratio": 1.07,
+        "debt_to_equity": 0.60,
+        "debt_to_assets": 0.25,
+        "equity_multiplier": 2.39,
+        "working_capital": 248000000
+      },
+      "2025": {
+        "current_ratio": 1.56,
+        "quick_ratio": 1.12,
+        "debt_to_equity": 0.42,
+        "debt_to_assets": 0.20,
+        "equity_multiplier": 2.09,
+        "working_capital": 317000000
+      }
+    }
+  }
+}
